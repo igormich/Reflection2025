@@ -1,8 +1,8 @@
+package reflection.base;
+
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 import java.util.Arrays;
-
-import static java.lang.reflect.Modifier.STATIC;
 
 public class ListFields {
 

@@ -1,3 +1,5 @@
+package reflection.base;
+
 import java.lang.reflect.Array;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Modifier;
@@ -12,12 +14,13 @@ public class MethodsUsage {
     public static void main(String[] args) {
         var listClass = List.class;
         var methodsZeroArg = Arrays.stream(listClass.getMethods())
-                .filter(m -> m.getParameterCount() == 0 && Modifier.isStatic(m.getModifiers()))
+                .filter(m -> m.getParameterCount() == 0 && !Modifier.isStatic(m.getModifiers()))
                 .toList();
         var list = Arrays.asList(1, 2, 3, 4, 5);
         for (var method : methodsZeroArg) {
             System.out.println("invoke " + method.getName());
             try {
+                //list.method()
                 System.out.println(method.invoke(list));
             } catch (Exception e) {
                 System.out.println("fail with " + e.getCause());

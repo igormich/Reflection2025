@@ -1,3 +1,5 @@
+package reflection.base;
+
 import java.util.Arrays;
 
 public class BrokenInt {
@@ -11,7 +13,17 @@ public class BrokenInt {
         Integer[] cache = (Integer[]) cacheField.get(null); //static field - no object need
         Arrays.fill(cache, 42);
         //cacheField.set(null, new Integer(?));
+
+
+
+
+
+
+
         Integer zero = 0;
+        Integer ten = 10;
         System.out.println(zero);
+        System.out.println(zero + ten);
+        System.out.println(zero + 10);
     }
 }

@@ -5,23 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76e52174-644c-4c3c-ba0b-ef6d21a6e1fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BrokenInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ListFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ListMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MethodsUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/advanced/BotAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/advanced/BotPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/advanced/BotUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/advanced/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/advanced/ProxyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/advanced/ReflectionsAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/advanced/ReflectionsClazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pro/autumn/Arg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pro/autumn/AutoWired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pro/autumn/Autumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pro/autumn/Get.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pro/autumn/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pro/user/BotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pro/user/BotService1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pro/user/BotService2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pro/user/DataBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pro/user/DataBaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pro/user/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/pro/user/ImageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BrokenInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflection/base/BrokenInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClassInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflection/base/ClassInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ListFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflection/base/ListFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ListMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflection/base/ListMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MethodsUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflection/base/MethodsUsage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,27 +63,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Kotlin/urfu/Reflection&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="reflection.pro.user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Kotlin\urfu\Reflection" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="reflection.pro.user" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodsUsage">
-    <configuration name="BrokenInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BrokenInt" />
+  <component name="RunManager" selected="Application.BotService1">
+    <configuration name="BotService1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.pro.user.BotService1" />
       <module name="Reflection.main" />
-      <option name="VM_PARAMETERS" value="--add-opens java.base/java.lang=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="reflection.pro.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,48 +99,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassInfo" />
-      <module name="Reflection.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListFields" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListFields" />
-      <module name="Reflection.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ListMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListMethods" />
+      <option name="MAIN_CLASS_NAME" value="reflection.base.ListMethods" />
       <module name="Reflection.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodsUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MethodsUsage" />
+    <configuration name="ProxyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.advanced.ProxyExample" />
       <module name="Reflection.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionsAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.advanced.ReflectionsAnnotation" />
+      <module name="Reflection.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionsClazz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.advanced.ReflectionsClazz" />
+      <module name="Reflection.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClassInfo" />
-      <item itemvalue="Application.ListFields" />
+      <item itemvalue="Application.BotService1" />
       <item itemvalue="Application.ListMethods" />
-      <item itemvalue="Application.MethodsUsage" />
-      <item itemvalue="Application.BrokenInt" />
+      <item itemvalue="Application.ProxyExample" />
+      <item itemvalue="Application.ReflectionsAnnotation" />
+      <item itemvalue="Application.ReflectionsClazz" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassInfo" />
-        <item itemvalue="Application.MethodsUsage" />
-        <item itemvalue="Application.ListFields" />
+        <item itemvalue="Application.BotService1" />
         <item itemvalue="Application.ListMethods" />
-        <item itemvalue="Application.BrokenInt" />
+        <item itemvalue="Application.ProxyExample" />
+        <item itemvalue="Application.ReflectionsAnnotation" />
+        <item itemvalue="Application.ReflectionsClazz" />
       </list>
     </recent_temporary>
   </component>
@@ -133,5 +178,9 @@
       <updated>1740401186482</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
